@@ -9,3 +9,11 @@
 ## About
 * http://mvaal.github.io
 * http://www.marcusvaal.com
+
+## Updating
+Update the version in [package.json](package.json).
+
+    npm install
+
+If you update vendor libraries, copy the `dist` directory from
+[node_modules](./node_modules) to the [vendor](./vendor) directory.
